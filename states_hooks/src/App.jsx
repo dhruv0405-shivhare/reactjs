@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Show from "../Show";
+import Show2 from "../show2";
+import Theme from "../Theme";
 function App() {
    let [col,setcol] = useState('yellow')
 
@@ -30,6 +32,8 @@ function App() {
 <button onClick={black} style={{marginLeft:"20px"}}>black</button>
 <button onClick={orange} style={{marginLeft:"20px" , marginRight:"20px"}}>orange</button>
     <Show/>
+    <Show2/>
+    <Theme/>
     </>
   )
 }
